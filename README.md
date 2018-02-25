@@ -2,6 +2,7 @@
 
 ## usage
 ```go
+func main() {
 	j := jobcounter.NewJob()
 	c := make(chan string)
 
@@ -23,4 +24,6 @@
 		default:
 		}
 	}
+}
+
 ```
